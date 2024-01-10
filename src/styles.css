@@ -31,7 +31,6 @@ body{
 .container {
   background-color: #24232b;
   padding: 30px;
-  width: 60vh;
   box-shadow: 8px 8px 10px #909090;
   border-radius: 10px;
 }
