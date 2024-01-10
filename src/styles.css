@@ -11,7 +11,7 @@ body{
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 70px;
 }
 
 .heading{
@@ -30,7 +30,7 @@ body{
 
 .container {
   background-color: #24232b;
-  padding: 30px;
+  padding: 30px 15px;
   box-shadow: 8px 8px 10px #909090;
   border-radius: 10px;
 }
@@ -80,6 +80,11 @@ button {
   display: flex;
   gap: 5px;
   padding-bottom: 25px;
+}
+
+.checkboxes > div:first-child{
+  padding-right: 10px;
+
 }
 
 .generateBtn{
