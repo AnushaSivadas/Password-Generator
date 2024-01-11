@@ -30,9 +30,9 @@ body{
 
 .container {
   background-color: #24232b;
-  padding: 30px 15px;
+  padding: 30px 25px;
   box-shadow: 8px 8px 10px #909090;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .header {
@@ -41,6 +41,10 @@ body{
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 20px;
+}
+
+.title{
+  text-shadow: 1px 1px 2px #2a8b8b;
 }
 
 button {

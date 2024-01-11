@@ -64,6 +64,7 @@ function usePasswordGenerator() {
             generatedPassword += charset[randomIndex];
         }
     
+        //Shuffle the charaters
         const array = generatedPassword.split(""); // Convert string to array of characters
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));

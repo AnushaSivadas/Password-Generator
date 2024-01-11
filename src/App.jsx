@@ -35,7 +35,9 @@ function App() {
 
   return (
     <>
-      <div className='heading'><span>Password Generator</span></div>
+      <div className='heading'>
+        <span>Password Generator</span>
+      </div>
       <div className="container">
         {/* Password Text and Copy  */}
         {password && (<div className='header'>
